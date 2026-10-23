@@ -1,6 +1,11 @@
 venv/
+.venv/
+.env
+.env.*
+!.env.example
 .env.local
 clinica.db
+clinica.db-*
 __pycache__/
 *.pyc
 log.txt
